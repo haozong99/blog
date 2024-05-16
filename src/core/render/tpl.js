@@ -46,9 +46,9 @@ export function main(config) {
       ${
         config.name
           ? /* html */ `
-            <h1 class="app-name"><a class="app-name-link" data-nosearch>${
-              config.logo ? `<img alt="${name}" src=${config.logo} />` : name
-            }</a></h1>
+            <h1 class="app-name"><a class="app-name-link" data-nosearch>
+              <img alt="${name}" src=${config.logo} />
+            </a></h1>
           `
           : ''
       }

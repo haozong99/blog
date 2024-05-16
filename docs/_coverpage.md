@@ -1,12 +1,11 @@
 ![logo](_media/icon.svg)
 
-# docsify <small>4.13.0</small>
+# Cecil <small>Blog</small>
 
-> A magical documentation site generator.
+> 记录一下Cecil探索知识。
 
-- Simple and lightweight
-- No statically built html files
-- Multiple themes
 
-[GitHub](https://github.com/docsifyjs/docsify/)
+[GitHub](https://github.com/haozong99/blog)
 [Getting Started](#docsify)
+
+![color](#f0f0f0)
