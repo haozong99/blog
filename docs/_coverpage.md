@@ -1,4 +1,4 @@
-![logo](_media/icon.svg)
+![logo](_media/OIP.jpg)
 
 # Cecil <small>Blog</small>
 
@@ -6,6 +6,6 @@
 
 
 [GitHub](https://github.com/haozong99/blog)
-[Getting Started](#docsify)
+[Getting Started](Fiber)
 
 ![color](#f0f0f0)

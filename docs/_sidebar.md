@@ -1,33 +1,9 @@
-<!-- - Getting started
-
-  - [Quick start](quickstart.md)
-  - [Writing more pages](more-pages.md)
-  - [Custom navbar](custom-navbar.md)
-  - [Cover page](cover.md)
-
-- Customization
-
-  - [Configuration](configuration.md)
-  - [Themes](themes.md)
-  - [List of Plugins](plugins.md)
-  - [Write a Plugin](write-a-plugin.md)
-  - [Markdown configuration](markdown.md)
-  - [Language highlighting](language-highlight.md)
-  - [Emoji](emoji.md)
-
-- Guide
-
-  - [Deploy](deploy.md)
-  - [Helpers](helpers.md)
-  - [Vue compatibility](vue.md)
-  - [CDN](cdn.md)
-  - [Offline Mode (PWA)](pwa.md)
-  - [Embed Files](embed-files.md)
-
-- [Awesome docsify](awesome.md)
-- [Changelog](changelog.md) -->
-
 - React
 
-  - [原理探究](react-building.md)
-  - [jsx转fiber过程](fiber-building.md)
+  - [Fiber](Fiber.md)
+  - [Reconciler](Reconciler.md)
+  - [Scheduler](Scheduler.md)
+
+<!-- - webpack
+
+  - [babel抽象语法树](babel-ash.md) -->

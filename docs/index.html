@@ -56,6 +56,10 @@
         width: auto !important;
         display: none;
       }
+
+      [id^="carbonads"] {
+        display: none;
+      }
     </style>
     <script>
       (function () {
@@ -204,12 +208,11 @@
                   'https://github.com/docsifyjs/docsify/blob/develop/docs/' +
                   vm.route.file;
               }
-              const editHtml = '[:memo: Edit Document](' + url + ')\n';
+              const editHtml = '';
               return (
                 editHtml +
                 html +
-                '\n\n----\n\n' +
-                '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by docsify</a>'
+                '\n\n----\n\n'
               );
             });
           },
