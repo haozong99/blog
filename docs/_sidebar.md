@@ -4,6 +4,7 @@
   - [Reconciler](Reconciler.md)
   - [Scheduler](Scheduler.md)
 
-<!-- - webpack
+- webpack
 
-  - [babel抽象语法树](babel-ash.md) -->
+  - [优化webpack打包](webpack-optimization.md)
+  - [babel抽象语法树](babel-ash.md)

@@ -47,7 +47,7 @@ export function main(config) {
         config.name
           ? /* html */ `
             <h1 class="app-name"><a class="app-name-link" data-nosearch>
-              Cecil
+              <img alt="${name}" src=${config.logo} />
             </a></h1>
           `
           : ''

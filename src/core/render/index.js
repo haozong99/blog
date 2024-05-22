@@ -233,7 +233,6 @@ export function Render(Base) {
 
     #renderNameLink(vm) {
       const el = dom.getNode('.app-name-link');
-      el.innerHTML = 'Cecil';
       const nameLink = vm.config.nameLink;
       const path = vm.route.path;
 
@@ -271,9 +270,9 @@ export function Render(Base) {
         }
 
         if (el) {
-          el.innerHTML = 'Cecil';
+          el.innerHTML = skipLinkText;
         } else {
-          const html = `<button id="skip-to-content">${'Cecil'}</button>`;
+          const html = `<button id="skip-to-content">${skipLinkText}</button>`;
           dom.body.insertAdjacentHTML('afterbegin', html);
         }
       }

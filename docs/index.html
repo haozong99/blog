@@ -79,6 +79,7 @@
     <script>
       // Docsify configuration
       window.$docsify = {
+        skipLink: 'Cecil',
         alias: {
           '.*?/awesome':
             'https://raw.githubusercontent.com/docsifyjs/awesome-docsify/master/README.md',
@@ -107,7 +108,7 @@
           host: '//matomo.thunderwave.de',
           id: 6,
         },
-        name: 'docsify',
+        name: 'Cecil',
         nameLink: {
           '/es/': '#/es/',
           '/de-de/': '#/de-de/',
@@ -133,12 +134,12 @@
           },
           pathNamespaces: ['/es', '/de-de', '/ru-ru', '/zh-cn'],
         },
-        skipLink: {
-          '/es/': 'Saltar al contenido principal',
-          '/de-de/': 'Ga naar de hoofdinhoud',
-          '/ru-ru/': 'Перейти к основному содержанию',
-          '/zh-cn/': '跳到主要内容',
-        },
+        // skipLink: {
+        //   '/es/': 'Saltar al contenido principal',
+        //   '/de-de/': 'Ga naar de hoofdinhoud',
+        //   '/ru-ru/': 'Перейти к основному содержанию',
+        //   '/zh-cn/': '跳到主要内容',
+        // },
         vueComponents: {
           'button-counter': {
             template: /* html */ `<button @click="count += 1">You clicked me {{ count }} times</button>`,
