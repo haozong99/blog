@@ -19,7 +19,3 @@
   
   - [Detail](ts-detail.md)
 
-- RN
-
-  - [RN](RN-detail.md)
-
